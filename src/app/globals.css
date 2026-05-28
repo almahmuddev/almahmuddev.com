@@ -1,0 +1,33 @@
+/*
+  globals.css
+  -----------
+  The original template CSS (style.css, bootstrap, fontawesome, etc.)
+  is loaded via <link> tags in layout.tsx from the /public/assets folder.
+
+  This file only holds Next.js-specific base resets and
+  smooth theme transition that applies across ALL elements.
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Smooth colour transition when switching dark ↔ light */
+body,
+body *,
+body *::before,
+body *::after {
+  transition:
+    background-color 0.4s ease,
+    color            0.4s ease,
+    border-color     0.4s ease,
+    box-shadow       0.4s ease;
+}
+
+/* Images & SVGs don't need a colour transition */
+body img,
+body svg {
+  transition: opacity 0.3s ease !important;
+}
