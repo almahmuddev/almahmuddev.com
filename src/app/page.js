@@ -1,27 +1,20 @@
-import ThemeToggle from '@/components/ThemeToggle'
-
 export default function Home() {
   return (
     <main style={{
       minHeight: '100vh',
       display: 'flex',
-      flexDirection: 'column',
       alignItems: 'center',
       justifyContent: 'center',
-      gap: '24px',
       textAlign: 'center',
-      padding: '40px 20px',
+      padding: '120px 20px 40px',
     }}>
-      <h1 style={{ fontSize: '2rem', fontWeight: 700, margin: 0 }}>
-        Stage 1 — Project Scaffolded ✅
-      </h1>
-      <p style={{ opacity: 0.6, maxWidth: '480px', margin: 0 }}>
-        Next.js running. CSS loaded. Theme toggle working.
-        Real content starts Stage 2.
-      </p>
-      <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-        <span style={{ opacity: 0.5, fontSize: '0.9rem' }}>Toggle →</span>
-        <ThemeToggle />
+      <div>
+        <h1 style={{ fontSize: '2rem', fontWeight: 700, margin: 0 }}>
+          Stage 2 — Header & Navbar ✅
+        </h1>
+        <p style={{ opacity: 0.6, marginTop: '12px' }}>
+          Hero section coming in Stage 3.
+        </p>
       </div>
     </main>
   )
