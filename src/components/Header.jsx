@@ -7,7 +7,7 @@ import ThemeToggle from '@/components/ThemeToggle'
 
 export default function Header() {
 
-    // ── Sticky header on scroll ──────────────────────────────────────────────
+    // -- Sticky header on scroll
     useEffect(() => {
         const header = document.querySelector('.header--sticky')
 
@@ -23,7 +23,7 @@ export default function Header() {
         return () => window.removeEventListener('scroll', handleScroll)
     }, [])
 
-    // ── Sidebar open / close ─────────────────────────────────────────────────
+    // -- Sidebar open / close 
     useEffect(() => {
         const openBtns = document.querySelectorAll('.tmp_button_active')
         const closeBtns = document.querySelectorAll('.close_side_menu_active')
@@ -44,7 +44,7 @@ export default function Header() {
         }
     }, [])
 
-    // ── Mobile menu open / close ─────────────────────────────────────────────
+    // -- Mobile menu open / close
     useEffect(() => {
         const openBtns = document.querySelectorAll('.humberger_menu_active')
         const closeBtns = document.querySelectorAll('.close-button')
