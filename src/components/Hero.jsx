@@ -132,7 +132,7 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* left background shape */}
+        {/* Left background shape */}
         <div className="banner-four-left-bg-img">
           <Image
             src="/assets/images/banner/banner-four-left-bg-img.png"
@@ -142,10 +142,10 @@ export default function Hero() {
           />
         </div>
       </div>
-      {/* --  hero ended */}
+      {/* ── HERO END ───────────────────────────────────────────────────── */}
 
 
-      {/* -- tetx peragraph */}
+      {/* ── TEXT PARAGRAPH ─────────────────────────────────────────────── */}
       <div className="container tmp-section-gap">
         <div className="text-para-doc-wrap">
           <h2 className="text-para-documents tmp-scroll-trigger tmp-fade-in animation-order-1 inv-title-animation-wrap">
@@ -173,7 +173,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      {/* -- text peragraph end  */}
+      {/* ── TEXT PARAGRAPH END ─────────────────────────────────────────── */}
     </>
   )
 }
