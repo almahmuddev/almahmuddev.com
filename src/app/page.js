@@ -2,6 +2,7 @@ import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Portfolio from '@/components/Portfolio'
 import Expertise from '@/components/Expertise'
+import Testimonial from '@/components/Testimonial'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <About />
       <Portfolio />
       <Expertise />
+      <Testimonial />
     </main>
   )
 }
