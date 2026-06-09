@@ -57,21 +57,21 @@ export default function Contact() {
                       <span className="ft-icon"><i className="fa-solid fa-envelope"></i></span>
                       <div className="ft-link-wrap">
                         <h4 className="link-title">E-mail:</h4>
-                        <a href="#">nafiz125@gmail.com</a>
+                        <a href="#">devalmahmud@gmail.com</a>
                       </div>
                     </li>
                     <li className="tmp-scroll-trigger tmp-fade-in animation-order-2">
                       <span className="ft-icon"><i className="fa-solid fa-location-dot"></i></span>
                       <div className="ft-link-wrap">
                         <h4 className="link-title">Location:</h4>
-                        <div>3891 Ranchview Dr. Richardson</div>
+                        <div>Street No:6, Khadimnagar, Sylhet, BD</div>
                       </div>
                     </li>
                     <li className="tmp-scroll-trigger tmp-fade-in animation-order-3 tmp-link-animation">
                       <span className="ft-icon"><i className="fa-solid fa-location-dot"></i></span>
                       <div className="ft-link-wrap">
                         <h4 className="link-title">Contact:</h4>
-                        <a href="#">01245789321</a>
+                        <a href="#">01874991984</a>
                       </div>
                     </li>
                   </ul>

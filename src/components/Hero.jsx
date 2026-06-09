@@ -25,7 +25,7 @@ export default function Hero() {
                     Web Developer
                   </span>
                   <h1 className="title tmp-scroll-trigger tmp-fade-in animation-order-2">
-                    Jackson Clark
+                    Mahmud Khan
                   </h1>
                   <p className="description tmp-scroll-trigger tmp-fade-in animation-order-3">
                     Outsourcing can provide corporate businesses with several
@@ -52,17 +52,17 @@ export default function Hero() {
                 <div className="banner-right-content tmp-scroll-trigger tmp-fade-in animation-order-5">
                   <div className="year-expariance-wrap">
                     <h3 className="counter title">
-                      <span className="odometer" data-count="25">00</span>
+                      <span className="odometer" data-count="25">2</span>
                     </h3>
                     <p className="para">Years Of <br />experience</p>
                   </div>
                   <div className="find-me-on">
                     <h2 className="find-me-on-title">Find me on</h2>
                     <div className="social-link banner">
-                      <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                      <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
-                      <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                      <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+                      <a href="https://www.instagram.com/almahmuddev/"><i className="fa-brands fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/almahmuddev/"><i className="fa-brands fa-linkedin-in"></i></a>
+                      <a href="https://www.instagram.com/almahmuddev/"><i className="fa-brands fa-twitter"></i></a>
+                      <a href="https://www.facebook.com/share/1AKXLBv3Gv/"><i className="fa-brands fa-facebook-f"></i></a>
                     </div>
                   </div>
                 </div>
