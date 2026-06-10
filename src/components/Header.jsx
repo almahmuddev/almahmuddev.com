@@ -70,8 +70,9 @@ export default function Header() {
 
                                 <div className="logo">
                                     <Link href="/">
-                                        <img className="logo-dark" src="/assets/images/logo/white-logo-reeni-3.png" alt="logo" />
-                                        <img className="logo-white" src="/assets/images/logo/logo-white.png" alt="logo" />
+                                        <img className="logo-dark" src="/assets/images/logo/My-personal-logo-yellow-white.png" alt="logo" />
+                                        {/* <img className="logo-white" src="/assets/images/logo/logo-white.png" alt="logo" /> */}
+                                        <img className="logo-white" src="/assets/images/logo/My-personal-logo-yellow-white.png" alt="logo" />
                                     </Link>
                                 </div>
 
