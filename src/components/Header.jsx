@@ -183,24 +183,24 @@ export default function Header() {
                                     <i className="fa-solid fa-envelope"></i>
                                     <div className="information tmp-link-animation">
                                         <span>Mail Us</span>
-                                        <a href="#" className="number">example@info.com</a>
+                                        <a href="#" className="number">devalmahmud@gmail.com</a>
                                     </div>
                                 </div>
                                 <div className="single-contact">
                                     <i className="fa-solid fa-location-crosshairs"></i>
                                     <div className="information tmp-link-animation">
                                         <span>My Address</span>
-                                        <span className="number">66 Broklyant, New York 3269</span>
+                                        <span className="number">Street No:6, Khadimnagar, Sylhet, BD</span>
                                     </div>
                                 </div>
                             </div>
                             <div className="social-wrapper mt--20">
                                 <span className="subtitle">find with me</span>
                                 <div className="social-link">
-                                    <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                                    <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
-                                    <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                                    <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/almahmuddev/" target="blank" ><i className="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/almahmuddev/" target='blank' ><i className="fa-brands fa-linkedin-in"></i></a>
+                                    <a href="https://github.com/almahmuddev" target='blank' ><i className="fa-brands fa-gituhb"></i></a>
+                                    <a href="https://www.facebook.com/share/1AKXLBv3Gv/" target='blank' ><i className="fa-brands fa-facebook-f"></i></a>
                                 </div>
                             </div>
                         </div>

@@ -59,10 +59,10 @@ export default function Hero() {
                   <div className="find-me-on">
                     <h2 className="find-me-on-title">Find me on</h2>
                     <div className="social-link banner">
-                      <a href="https://www.instagram.com/almahmuddev/"><i className="fa-brands fa-instagram"></i></a>
-                      <a href="https://www.linkedin.com/in/almahmuddev/"><i className="fa-brands fa-linkedin-in"></i></a>
-                      <a href="https://www.instagram.com/almahmuddev/"><i className="fa-brands fa-twitter"></i></a>
-                      <a href="https://www.facebook.com/share/1AKXLBv3Gv/"><i className="fa-brands fa-facebook-f"></i></a>
+                      <a href="https://www.instagram.com/almahmuddev/" target="blank"><i className="fa-brands fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com/in/almahmuddev/" target="blank" ><i className="fa-brands fa-linkedin-in"></i></a>
+                      <a href="https://github.com/almahmuddev" target="blank" ><i className="fa-brands fa-github"></i></a>
+                      <a href="https://www.facebook.com/share/1AKXLBv3Gv/" target="blank" ><i className="fa-brands fa-facebook-f"></i></a>
                     </div>
                   </div>
                 </div>
