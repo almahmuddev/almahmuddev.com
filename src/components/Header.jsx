@@ -115,10 +115,10 @@ export default function Header() {
                                 <div className="tmp-header-right">
                                     <div className="social-share-wrapper d-none d-md-block">
                                         <div className="social-link">
-                                            <a href="#"><i className="fa-brands fa-instagram"></i></a>
-                                            <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
-                                            <a href="#"><i className="fa-brands fa-twitter"></i></a>
-                                            <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+                                            <a href="https://www.instagram.com/almahmuddev/" target='blank' ><i className="fa-brands fa-instagram"></i></a>
+                                            <a href="https://www.linkedin.com/in/almahmuddev/" target='blank' ><i className="fa-brands fa-linkedin-in"></i></a>
+                                            <a href="https://github.com/almahmuddev" target='blank' ><i className="fa-brands fa-github"></i></a>
+                                            <a href=" https://www.facebook.com/share/1AKXLBv3Gv/" target='blank' ><i className="fa-brands fa-facebook-f"></i></a>
                                         </div>
                                     </div>
                                     <div className="actions-area">
