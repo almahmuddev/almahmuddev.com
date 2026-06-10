@@ -79,7 +79,7 @@ export default function Hero() {
 
 
       {/* tmp text para start */}
-      <div className="container tmp-section-gap">
+      {/* <div className="container tmp-section-gap">
         <div className="text-para-doc-wrap">
           <h2 className="text-para-documents tmp-scroll-trigger tmp-fade-in animation-order-1 inv-title-animation-wrap">
             A personal <span>portfolio</span> is a collection of your work, that is aa
@@ -94,7 +94,7 @@ export default function Hero() {
             <img src="/assets/images/banner/left-bg-text-para-doc.png" alt="" />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* tmp text para end */}
     </>
   )
