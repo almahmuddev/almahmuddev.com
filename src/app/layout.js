@@ -1,5 +1,6 @@
 import { ThemeProvider } from '@/providers/ThemeProvider'
 import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 import ScriptLoader from '@/components/ScriptLoader'
 import './globals.css'
 
@@ -26,9 +27,10 @@ export default function RootLayout({ children }) {
         <ThemeProvider>
           <Header />
           {children}
+          <Footer />
         </ThemeProvider>
-
-        {/* Loads all JS in guaranteed sequence — jQuery first, main.js last */}
+        
+        {/* load external js first */}
         <ScriptLoader />
       </body>
     </html>

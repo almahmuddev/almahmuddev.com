@@ -1,4 +1,3 @@
-
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Portfolio from '@/components/Portfolio'
@@ -7,6 +6,7 @@ import Testimonial from '@/components/Testimonial'
 import Skills from '@/components/Skills'
 import Pricing from '@/components/Pricing'
 import Contact from '@/components/Contact'
+import Blog from '@/components/Blog'
 
 export default function Home() {
   return (
@@ -19,7 +19,7 @@ export default function Home() {
       <Skills />
       <Pricing />
       <Contact />
+      <Blog />
     </main>
   )
 }
-
