@@ -34,8 +34,11 @@ export default function RootLayout({ children }) {
         {/* Re-runs scroll animations on client-side route changes */}
         <RouteAnimations />
 
-        {/* load external js first */}
-
+        {/*
+          Hidden target for main.js's fonklsAnimation (SplitText on ".end").
+          Prevents "Element not found: .end" console warnings —
+          this element is invisible and takes no layout space.
+        */}
         <span
           className="end"
           aria-hidden="true"
@@ -50,6 +53,7 @@ export default function RootLayout({ children }) {
         >
           end
         </span>
+
         <ScriptLoader />
       </body>
     </html>
