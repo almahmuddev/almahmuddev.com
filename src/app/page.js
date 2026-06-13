@@ -8,6 +8,12 @@ import Pricing from '@/components/Pricing'
 import Contact from '@/components/Contact'
 import Blog from '@/components/Blog'
 
+export const metadata = {
+  title: 'Home',
+  description:
+    'Al Mahmud — Front-End Developer and WordPress Expert. Building modern, responsive websites with React, Next.js and WordPress.',
+}
+
 export default function Home() {
   return (
     <main>
