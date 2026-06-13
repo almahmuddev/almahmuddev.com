@@ -5,11 +5,67 @@ import ScriptLoader from '@/components/ScriptLoader'
 import RouteAnimations from '@/components/RouteAnimations'
 import './globals.css'
 
+const siteUrl = 'https://almahmuddev.com'
+const siteName = 'Al Mahmud — Front-End Developer & WordPress Expert'
+const siteDesc =
+  'Portfolio of Al Mahmud, a Front-End Developer and WordPress specialist building fast, modern websites with React, Next.js and WordPress.'
+
+
 export const metadata = {
-  title: 'Al Mahmud — Portfolio',
-  description: 'Full-stack developer portfolio',
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: siteName,
+    template: '%s | Al Mahmud',
+  },
+  description: siteDesc,
+  keywords: [
+    'Al Mahmud',
+    'Front-End Developer',
+    'WordPress Expert',
+    'React Developer',
+    'Next.js Developer',
+    'Web Developer Bangladesh',
+    'almahmuddev',
+  ],
+  authors: [{ name: 'Al Mahmud', url: siteUrl }],
+  creator: 'Al Mahmud',
+
   icons: {
     icon: '/assets/images/favicon.svg',
+    shortcut: '/assets/images/favicon.svg',
+    apple: '/assets/images/favicon.svg',
+  },
+
+  openGraph: {
+    type: 'website',
+    url: siteUrl,
+    title: siteName,
+    description: siteDesc,
+    siteName: siteName,
+    images: [
+      {
+        url: '/assets/images/banner/banner-user-image-four.png',
+        width: 1200,
+        height: 630,
+        alt: 'Al Mahmud — Portfolio',
+      },
+    ],
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: siteName,
+    description: siteDesc,
+    images: ['/assets/images/banner/banner-user-image-four.png'],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
   },
 }
 
