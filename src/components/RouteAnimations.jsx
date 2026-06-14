@@ -1,61 +1,53 @@
-import { ThemeProvider } from '@/providers/ThemeProvider'
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import ScriptLoader from '@/components/ScriptLoader'
-import RouteAnimations from '@/components/RouteAnimations'
-import './globals.css'
+'use client'
 
-export const metadata = {
-  title: 'Al Mahmud — Portfolio',
-  description: 'Full-stack developer portfolio',
-  icons: {
-    icon: '/assets/images/favicon.svg',
-  },
-}
+import { useEffect, useRef } from 'react'
+import { usePathname } from 'next/navigation'
 
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <head>
-        <link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css" />
-        <link rel="stylesheet" href="/assets/css/vendor/fontawesome.css" />
-        <link rel="stylesheet" href="/assets/css/vendor/animate.min.css" />
-        <link rel="stylesheet" href="/assets/css/plugins/swiper.css" />
-        <link rel="stylesheet" href="/assets/css/plugins/odometer.css" />
-        <link rel="stylesheet" href="/assets/css/style.css" />
-      </head>
-      <body>
-        <ThemeProvider>
-          <Header />
-          {children}
-          <Footer />
-        </ThemeProvider>
+const TRIGGER_CLASS   = 'tmp-scroll-trigger'
+const OFFSCREEN_CLASS = 'tmp-scroll-trigger--offscreen'
 
-        {/* Re-runs scroll animations on client-side route changes */}
-        <RouteAnimations />
+export default function RouteAnimations() {
+  const pathname = usePathname()
+  const isFirstRun = useRef(true)
 
-        {/*
-          Hidden target for main.js's fonklsAnimation (SplitText on ".end").
-          Prevents "Element not found: .end" console warnings —
-          this element is invisible and takes no layout space.
-        */}
-        <span
-          className="end"
-          aria-hidden="true"
-          style={{
-            position: 'absolute',
-            width: 0,
-            height: 0,
-            overflow: 'hidden',
-            opacity: 0,
-            pointerEvents: 'none',
-          }}
-        >
-          end
-        </span>
+  useEffect(() => {
+    // Skip the very first run — the original main.js / animation.js
+    if (isFirstRun.current) {
+      isFirstRun.current = false
+      return
+    }
 
-        <ScriptLoader />
-      </body>
-    </html>
-  )
+    const elements = document.querySelectorAll(`.${TRIGGER_CLASS}`)
+    if (!elements.length) return
+
+    elements.forEach((el) => el.classList.add(OFFSCREEN_CLASS))
+
+    const observer = new IntersectionObserver(
+      (entries, obs) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.remove(OFFSCREEN_CLASS)
+            obs.unobserve(entry.target)
+          }
+        })
+      },
+      { rootMargin: '0px 0px -50px 0px' }
+    )
+
+    elements.forEach((el) => observer.observe(el))
+
+    // Refresh GSAP ScrollTrigger positions for the new page layout
+    if (typeof window !== 'undefined' && window.ScrollTrigger) {
+      window.ScrollTrigger.refresh()
+    }
+
+    return () => observer.disconnect()
+  }, [pathname])
+
+  // Always scroll to top on route change
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
+  return null
 }
