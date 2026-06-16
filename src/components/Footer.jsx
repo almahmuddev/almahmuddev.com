@@ -50,15 +50,15 @@ export default function Footer() {
                   <ul className="ft-link tmp-scroll-trigger animation-order-1 tmp-link-animation">
                     <li>
                       <span className="ft-icon"><i className="fa-solid fa-phone"></i></span>
-                      <a href="#">017345 678 9101</a>
+                      <a href="#">01874 991984</a>
                     </li>
                     <li>
                       <span className="ft-icon"><i className="fa-solid fa-location-dot"></i></span>
-                      Cumilla, Bangladesh
+                      Sylhet, Bangladesh
                     </li>
                     <li>
                       <span className="ft-icon"><i className="fa-solid fa-envelope"></i></span>
-                      <a href="#">abcd@gmail.com</a>
+                      <a href="#">devalmahmud@gmail.com</a>
                     </li>
                   </ul>
                 </div>
@@ -69,7 +69,7 @@ export default function Footer() {
                 <div className="newslatter tmp-scroll-trigger animation-order-1">
                   <h3 className="title">Newsletter</h3>
                   <p className="para">
-                    The personal portfolio category includes the a websites or representation
+                    Subscribe my newslater to get new updates
                   </p>
                   <form action="#" className="newsletter-form-1">
                     <input type="email" placeholder="Your e-mail" />
@@ -95,7 +95,7 @@ export default function Footer() {
             <div className="col-lg-12">
               <div className="main-wrapper tmp-scroll-trigger animation-order-1">
                 <p className="copy-right-para">
-                  © {new Date().getFullYear()} Al Mahmud | All Rights Reserved
+                  © {new Date().getFullYear()} Mahmud Khan | All Rights Reserved
                 </p>
                 <ul className="tmp-link-animation">
                   <li><a href="#">Terms & Condition</a></li>
