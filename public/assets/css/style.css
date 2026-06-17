@@ -27295,7 +27295,7 @@ body.tmp-white-version .header-left-sticky .inner-wrapper::after {
   background-size: 400% 400%;
   animation: gradient 4s ease infinite;
   opacity: 1;
-  backdrop-filter: blur(21px);
+  /* backdrop-filter: blur(21px); */
 }
 .tmp-white-version .tmp-right-demo * {
   color: #fff !important;
@@ -27376,4 +27376,3 @@ body.tmp-white-version.color-primary-3rd .services-widget.v2 .active-bg {
 .active-light.demo-modal-area .wrapper .tmp-modal-inner .demo-top .subtitle {
   color: #3d3d3d !important;
 }
-/*# sourceMappingURL=../maps/style.css.map */

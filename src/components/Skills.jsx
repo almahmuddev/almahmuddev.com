@@ -30,7 +30,7 @@ export default function Skills() {
               <div className="col-xxl-6 col-lg-12 col-md-12">
                 <div className="my-skill-card-style-two row">
 
-                  <div className="col-lg-6 col-md-6 col-12">
+                  {/* <div className="col-lg-6 col-md-6 col-12">
                     <div className="my-skill-card tmp-scroll-trigger tmp-fade-in animation-order-1">
                       <div className="card-icon">
                         <img src="/assets/images/icons/icon-01.png" alt="my-skill-icon" />
@@ -41,9 +41,9 @@ export default function Skills() {
                         Journey Your Story
                       </p>
                     </div>
-                  </div>
+                  </div> */}
 
-                  <div className="col-lg-6 col-md-6 col-12">
+                  {/* <div className="col-lg-6 col-md-6 col-12">
                     <div className="my-skill-card tmp-scroll-trigger tmp-fade-in animation-order-2">
                       <div className="card-icon">
                         <img src="/assets/images/icons/icon-02.png" alt="my-skill-icon" />
@@ -54,7 +54,7 @@ export default function Skills() {
                         Journey Your Story
                       </p>
                     </div>
-                  </div>
+                  </div> */}
 
                   <div className="col-lg-6 col-md-6 col-12">
                     <div className="my-skill-card tmp-scroll-trigger tmp-fade-in animation-order-3">
