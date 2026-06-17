@@ -43,6 +43,28 @@ export default function Skills() {
                     </div>
                   </div> */}
 
+                  <div className="col-lg-6 col-md-6 col-12">
+                    <div className="my-skill-card tmp-scroll-trigger tmp-fade-in animation-order-2">
+                      <div className="card-icon">
+                        <img src="/assets/images/icons/icon-02.png" alt="my-skill-icon" />
+                      </div>
+                      <h3 className="card-title">Next.js</h3>
+                      <p className="card-para">
+                        Developing fast, SEO-friendly web applications using Next.js with App Router, routing, and optimized rendering.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-md-6 col-12">
+                    <div className="my-skill-card tmp-scroll-trigger tmp-fade-in animation-order-2">
+                      <div className="card-icon">
+                        <img src="/assets/images/icons/icon-02.png" alt="my-skill-icon" />
+                      </div>
+                      <h3 className="card-title">React.js</h3>
+                      <p className="card-para">
+                       Responsive UI development with reusable components, Hooks, state management, and API integration.
+                      </p>
+                    </div>
+                  </div>
                   {/* <div className="col-lg-6 col-md-6 col-12">
                     <div className="my-skill-card tmp-scroll-trigger tmp-fade-in animation-order-2">
                       <div className="card-icon">
