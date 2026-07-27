@@ -17973,69 +17973,6 @@ section.clients-testimonial-area {
   z-index: -1;
 }
 
-/*========================
-  Banner Six Main Wrapper
-  ========================*/
-.rpp-banner-six-area {
-  background: var(--color-gray-2);
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-}
-.rpp-banner-six-area .bg-left-shape {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: -1;
-}
-
-.banner-six-main-wrapper {
-  padding: 80px 0;
-}
-@media (min-width: 992px) {
-  .banner-six-main-wrapper {
-    padding-top: 233px;
-    padding-bottom: 136px;
-  }
-}
-
-.bg-benner-img-six {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-.bg-benner-img-six img {
-  border: 2px solid var(--color-primary);
-  border-radius: 100%;
-}
-.bg-benner-img-six::after {
-  content: url("../images/banner/banner-six-shape.png");
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(0deg);
-  animation: banner-cycle-animation 50s linear infinite;
-  display: none;
-}
-@media (min-width: 1400px) {
-  .bg-benner-img-six::after {
-    display: block;
-  }
-}
-@keyframes banner-cycle-animation {
-  from {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  to {
-    transform: translate(-50%, -50%) rotate(360deg);
-  }
-}
-
-.rpp-banner-five-area .banner-shape-img-bg img {
-  height: 100%;
-  width: 100%;
-}
 
 /*========================
   Find Me On
