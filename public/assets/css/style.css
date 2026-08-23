@@ -12263,7 +12263,7 @@ header.header-full-width.header--sticky.sticky {
   Banner Four Main Wrapper, Banner Six Main Wrapper
   ===================================================*/
 .banner-four-main-wrapper .inner .sub-title,
-.banner-six-main-wrapper .inner .sub-title {
+ .inner .sub-title {
   color: var(--color-primary);
   font-family: var(--font-primary);
   font-size: 32px;
@@ -12274,7 +12274,7 @@ header.header-full-width.header--sticky.sticky {
   margin-bottom: 10px;
 }
 .banner-four-main-wrapper .inner .title,
-.banner-six-main-wrapper .inner .title {
+ .inner .title {
   color: var(--color-heading);
   font-family: var(--font-primary);
   font-weight: 700;
@@ -12284,27 +12284,27 @@ header.header-full-width.header--sticky.sticky {
 }
 @media (min-width: 668px) {
   .banner-four-main-wrapper .inner .title,
-  .banner-six-main-wrapper .inner .title {
+   .inner .title {
     font-size: 110px;
     line-height: 100%;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .banner-four-main-wrapper .inner .title,
-  .banner-six-main-wrapper .inner .title {
+   .inner .title {
     font-size: 90px;
     line-height: 100px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner-four-main-wrapper .inner .title,
-  .banner-six-main-wrapper .inner .title {
+   .inner .title {
     font-size: 50px;
     margin-bottom: 9px;
   }
 }
 .banner-four-main-wrapper .inner .description,
-.banner-six-main-wrapper .inner .description {
+ .inner .description {
   color: var(--color-gray);
   font-family: var(--font-secondary);
   font-size: 16px;
@@ -12314,13 +12314,13 @@ header.header-full-width.header--sticky.sticky {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner-four-main-wrapper .inner .description,
-  .banner-six-main-wrapper .inner .description {
+   .inner .description {
     margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 767px) {
   .banner-four-main-wrapper .inner .description,
-  .banner-six-main-wrapper .inner .description {
+   .inner .description {
     margin-bottom: 20px;
   }
 }
@@ -13123,26 +13123,26 @@ header.header-full-width.header--sticky.sticky {
     min-height: 520px;
   }
 }
-.banner-twelve-area.with-bg-image .banner-one-main-wrapper .inner .title {
+.banner-twelve-area.with-bg-image  .inner .title {
   font-size: 84px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .banner-twelve-area.with-bg-image .banner-one-main-wrapper .inner .title {
+  .banner-twelve-area.with-bg-image  .inner .title {
     font-size: 60px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .banner-twelve-area.with-bg-image .banner-one-main-wrapper .inner .title {
+  .banner-twelve-area.with-bg-image  .inner .title {
     font-size: 54px;
   }
 }
 @media only screen and (max-width: 575px) {
-  .banner-twelve-area.with-bg-image .banner-one-main-wrapper .inner .title {
+  .banner-twelve-area.with-bg-image  .inner .title {
     font-size: 44px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .banner-twelve-area.with-bg-image .banner-one-main-wrapper .inner .title {
+  .banner-twelve-area.with-bg-image  .inner .title {
     font-size: 32px;
   }
 }
@@ -16377,7 +16377,7 @@ section.clients-testimonial-area {
   Banner Four Main Wrapper, Banner Six Main Wrapper
   ===================================================*/
 .banner-four-main-wrapper .inner .sub-title,
-.banner-six-main-wrapper .inner .sub-title {
+ .inner .sub-title {
   color: var(--color-primary);
   font-family: var(--font-primary);
   font-size: 32px;
@@ -16388,7 +16388,7 @@ section.clients-testimonial-area {
   margin-bottom: 10px;
 }
 .banner-four-main-wrapper .inner .title,
-.banner-six-main-wrapper .inner .title {
+ .inner .title {
   color: var(--color-heading);
   font-family: var(--font-primary);
   font-weight: 700;
@@ -16398,27 +16398,27 @@ section.clients-testimonial-area {
 }
 @media (min-width: 668px) {
   .banner-four-main-wrapper .inner .title,
-  .banner-six-main-wrapper .inner .title {
+   .inner .title {
     font-size: 110px;
     line-height: 100%;
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .banner-four-main-wrapper .inner .title,
-  .banner-six-main-wrapper .inner .title {
+   .inner .title {
     font-size: 90px;
     line-height: 100px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner-four-main-wrapper .inner .title,
-  .banner-six-main-wrapper .inner .title {
+   .inner .title {
     font-size: 50px;
     margin-bottom: 9px;
   }
 }
 .banner-four-main-wrapper .inner .description,
-.banner-six-main-wrapper .inner .description {
+ .inner .description {
   color: var(--color-gray);
   font-family: var(--font-secondary);
   font-size: 16px;
@@ -16428,13 +16428,13 @@ section.clients-testimonial-area {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .banner-four-main-wrapper .inner .description,
-  .banner-six-main-wrapper .inner .description {
+   .inner .description {
     margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 767px) {
   .banner-four-main-wrapper .inner .description,
-  .banner-six-main-wrapper .inner .description {
+   .inner .description {
     margin-bottom: 20px;
   }
 }
@@ -17277,26 +17277,26 @@ section.clients-testimonial-area {
     min-height: 520px;
   }
 }
-.banner-twelve-area.with-bg-image .banner-one-main-wrapper .inner .title {
+.banner-twelve-area.with-bg-image  .inner .title {
   font-size: 84px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .banner-twelve-area.with-bg-image .banner-one-main-wrapper .inner .title {
+  .banner-twelve-area.with-bg-image  .inner .title {
     font-size: 60px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .banner-twelve-area.with-bg-image .banner-one-main-wrapper .inner .title {
+  .banner-twelve-area.with-bg-image  .inner .title {
     font-size: 54px;
   }
 }
 @media only screen and (max-width: 575px) {
-  .banner-twelve-area.with-bg-image .banner-one-main-wrapper .inner .title {
+  .banner-twelve-area.with-bg-image  .inner .title {
     font-size: 44px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .banner-twelve-area.with-bg-image .banner-one-main-wrapper .inner .title {
+  .banner-twelve-area.with-bg-image  .inner .title {
     font-size: 32px;
   }
 }
