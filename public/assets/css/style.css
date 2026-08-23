@@ -11124,43 +11124,43 @@ header.header-full-width.header--sticky.sticky {
 .demo-model .tmp-banner-one-area.style-2 {
   background-image: url(../images/bg/03.webp);
 }
-.demo-model .banner-model-15 {
+.demo-model {
   text-align: center;
   max-width: 80%;
   margin: auto;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
-  .demo-model .banner-model-15 {
+  .demo-model {
     max-width: 100%;
   }
 }
 @media only screen and (max-width: 767px) {
-  .demo-model .banner-model-15 {
+  .demo-model {
     max-width: 100%;
   }
 }
-.demo-model .banner-model-15 .title {
+.demo-model .title {
   font-size: 160px !important;
   margin-top: 0;
   margin-bottom: 0;
   text-transform: uppercase;
 }
 @media only screen and (max-width: 1199px) {
-  .demo-model .banner-model-15 .title {
+  .demo-model .title {
     font-size: 120px !important;
   }
 }
 @media only screen and (max-width: 767px) {
-  .demo-model .banner-model-15 .title {
+  .demo-model .title {
     font-size: 80px !important;
   }
 }
 @media only screen and (max-width: 575px) {
-  .demo-model .banner-model-15 .title {
+  .demo-model .title {
     font-size: 44px !important;
   }
 }
-.demo-model .banner-model-15 p.disc {
+.demo-model p.disc {
   font-size: 22px;
   text-transform: uppercase;
   color: #fff;
@@ -13251,44 +13251,44 @@ header.header-full-width.header--sticky.sticky {
   height: 100%;
   object-fit: cover;
 }
-.model-style-banner.with-instructor .banner-model-15 {
+.model-style-banner.with-instructor {
   text-align: center;
   max-width: 80%;
   margin: auto;
 }
 @media only screen and (max-width: 767px) {
-  .model-style-banner.with-instructor .banner-model-15 {
+  .model-style-banner.with-instructor {
     max-width: 100%;
   }
 }
-.model-style-banner.with-instructor .banner-model-15 p.disc {
+.model-style-banner.with-instructor p.disc {
   font-size: 22px;
   text-transform: uppercase;
   color: #fff;
 }
-.model-style-banner.with-instructor .banner-model-15 .title {
+.model-style-banner.with-instructor .title {
   font-size: 160px !important;
   margin-top: 0;
   margin-bottom: 0;
   text-transform: uppercase;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
-  .model-style-banner.with-instructor .banner-model-15 .title {
+  .model-style-banner.with-instructor .title {
     font-size: 120px !important;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .model-style-banner.with-instructor .banner-model-15 .title {
+  .model-style-banner.with-instructor .title {
     font-size: 100px !important;
   }
 }
 @media only screen and (max-width: 767px) {
-  .model-style-banner.with-instructor .banner-model-15 .title {
+  .model-style-banner.with-instructor .title {
     font-size: 80px !important;
   }
 }
 @media only screen and (max-width: 575px) {
-  .model-style-banner.with-instructor .banner-model-15 .title {
+  .model-style-banner.with-instructor .title {
     font-size: 42px !important;
   }
 }
@@ -17405,44 +17405,44 @@ section.clients-testimonial-area {
   height: 100%;
   object-fit: cover;
 }
-.model-style-banner.with-instructor .banner-model-15 {
+.model-style-banner.with-instructor {
   text-align: center;
   max-width: 80%;
   margin: auto;
 }
 @media only screen and (max-width: 767px) {
-  .model-style-banner.with-instructor .banner-model-15 {
+  .model-style-banner.with-instructor {
     max-width: 100%;
   }
 }
-.model-style-banner.with-instructor .banner-model-15 p.disc {
+.model-style-banner.with-instructor p.disc {
   font-size: 22px;
   text-transform: uppercase;
   color: #fff;
 }
-.model-style-banner.with-instructor .banner-model-15 .title {
+.model-style-banner.with-instructor .title {
   font-size: 160px !important;
   margin-top: 0;
   margin-bottom: 0;
   text-transform: uppercase;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
-  .model-style-banner.with-instructor .banner-model-15 .title {
+  .model-style-banner.with-instructor .title {
     font-size: 120px !important;
   }
 }
 @media only screen and (max-width: 1199px) {
-  .model-style-banner.with-instructor .banner-model-15 .title {
+  .model-style-banner.with-instructor .title {
     font-size: 100px !important;
   }
 }
 @media only screen and (max-width: 767px) {
-  .model-style-banner.with-instructor .banner-model-15 .title {
+  .model-style-banner.with-instructor .title {
     font-size: 80px !important;
   }
 }
 @media only screen and (max-width: 575px) {
-  .model-style-banner.with-instructor .banner-model-15 .title {
+  .model-style-banner.with-instructor .title {
     font-size: 42px !important;
   }
 }
@@ -19903,7 +19903,7 @@ body.loaded {
   margin-bottom: 0;
 }
 
-.banner-two-main-wrapper .inner .split-line {
+ .inner .split-line {
   display: inline-block !important;
 }
 
